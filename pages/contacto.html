@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerFormato">
+        <div class="logoFlex">
+            <a href="./index.html"><img src="../img/coldplay logo.png" alt="logoColdplay" width="100px" height="100px" class="logoColdplay"></a>  
+        </div>
+        <nav>
+            <ul>
+                <li class="nav__link"><a href="./index.html">INICIO</a></li>
+                <li class="nav__link"><a href="./biografia.html">BIOGRAFIA</a></li>
+                <li class="nav__link"><a href="./discografia.html">DISCOGRAFIA</a></li>
+                <li class="nav__link"><a href="./giras.html">GIRAS</a></li>
+                <li class="nav__link"><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="colorMain">
+        <h1 class="formatoColdplay">¡Deja tu mensaje a la banda!</h1>
+        <form action="#" method="get">
+            <input type="text" value="Ingresa tu nombre" name="Dato1" label="enviar-nombre">
+            <br>
+            <input type="text" placeholder="Ingresa tu apellido" name="Apellido">
+            <br>
+            <input type="tel" name="Telefono" placeholder="Ingresa tu telefono">
+            <br>
+            <input type="submit" for="enviar-nombre" value="Registrarme">
+            <br>
+            <div>
+                <h2>Sexo</h2>
+                <p>Mujer</p>
+                <input type="radio" name="sexo" value="Mujer">
+                <p>Hombre</p>
+                <input type="radio" name="sexo" value="Hombre">
+                <p>No binario</p>
+                <input type="radio" name="sexo" value="No binario">
+                <p>Prefiero no decirlo</p>
+                <input type="radio" name="sexo" value="Prefiero no decirlo">
+                <br>
+                <p class="tituloColdplay">¿Acepta los terminos?</p>
+                <p>Si</p>
+                <input type="checkbox" value="Si" name="acepta">
+                <p>No</p>
+                <input type="checkbox" value="No" name="acepta">
+            </div>
+        </form>
+    </main>
+    <footer class="colorFooter">
+        <div>
+            <ul>
+                <li class="nav__link"><a href="">Facebook</a></li>
+                <li class="nav__link"><a href="">Instagram</a></li>
+                <li class="nav__link"><a href="">Whatsapp</a></li>   
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
